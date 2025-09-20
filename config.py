@@ -38,7 +38,7 @@ _C.MODEL.NAME = 'VGG16BN'
 # Checkpoint to resume, could be overwritten by command line argument
 _C.MODEL.RESUME = ''
 _C.MODEL.FACTOR = 1
-_C.MODEL.LOSS = 'P2P'
+_C.MODEL.LOSS = 'P2R'
 # -----------------------------------------------------------------------------
 # Training settings
 # -----------------------------------------------------------------------------
