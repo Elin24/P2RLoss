@@ -17,7 +17,7 @@ class L2DIS:
         C = C / self.factor
         return C
 
-class P2PLoss(nn.modules.loss._Loss):
+class P2RLoss(nn.modules.loss._Loss):
     def __init__(self, factor=1, reduction='mean') -> None:
         super().__init__()
         self.factor = factor
